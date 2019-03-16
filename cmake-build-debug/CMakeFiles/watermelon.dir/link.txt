@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/watermelon.dir/watermelon.cpp.o  -o watermelon 

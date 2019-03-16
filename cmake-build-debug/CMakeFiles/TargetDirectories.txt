@@ -1,0 +1,3 @@
+/home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles/nextround.dir
+/home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles/edit_cache.dir

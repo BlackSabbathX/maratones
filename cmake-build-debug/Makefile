@@ -123,6 +123,19 @@ nextround/fast:
 	$(MAKE) -f CMakeFiles/nextround.dir/build.make CMakeFiles/nextround.dir/build
 .PHONY : nextround/fast
 
+#=============================================================================
+# Target rules for targets named watermelon
+
+# Build rule for target.
+watermelon: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 watermelon
+.PHONY : watermelon
+
+# fast build rule for target.
+watermelon/fast:
+	$(MAKE) -f CMakeFiles/watermelon.dir/build.make CMakeFiles/watermelon.dir/build
+.PHONY : watermelon/fast
+
 nextround.o: nextround.cpp.o
 
 .PHONY : nextround.o
@@ -150,6 +163,33 @@ nextround.cpp.s:
 	$(MAKE) -f CMakeFiles/nextround.dir/build.make CMakeFiles/nextround.dir/nextround.cpp.s
 .PHONY : nextround.cpp.s
 
+watermelon.o: watermelon.cpp.o
+
+.PHONY : watermelon.o
+
+# target to build an object file
+watermelon.cpp.o:
+	$(MAKE) -f CMakeFiles/watermelon.dir/build.make CMakeFiles/watermelon.dir/watermelon.cpp.o
+.PHONY : watermelon.cpp.o
+
+watermelon.i: watermelon.cpp.i
+
+.PHONY : watermelon.i
+
+# target to preprocess a source file
+watermelon.cpp.i:
+	$(MAKE) -f CMakeFiles/watermelon.dir/build.make CMakeFiles/watermelon.dir/watermelon.cpp.i
+.PHONY : watermelon.cpp.i
+
+watermelon.s: watermelon.cpp.s
+
+.PHONY : watermelon.s
+
+# target to generate assembly for a file
+watermelon.cpp.s:
+	$(MAKE) -f CMakeFiles/watermelon.dir/build.make CMakeFiles/watermelon.dir/watermelon.cpp.s
+.PHONY : watermelon.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -157,11 +197,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... nextround"
 	@echo "... edit_cache"
+	@echo "... nextround"
+	@echo "... watermelon"
 	@echo "... nextround.o"
 	@echo "... nextround.i"
 	@echo "... nextround.s"
+	@echo "... watermelon.o"
+	@echo "... watermelon.i"
+	@echo "... watermelon.s"
 .PHONY : help
 
 

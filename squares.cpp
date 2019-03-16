@@ -3,13 +3,11 @@
 
 using namespace std;
 
-int nSquares(int n)
-{
+int nSquares(int n) {
     int s;
     int newN;
     int tot = 0;
-    do
-    {
+    do {
         newN = sqrt(n);
         s = n - (newN * newN);
         tot++;
@@ -18,21 +16,17 @@ int nSquares(int n)
     return tot;
 }
 
-void squaresFor(int n)
-{
+void squaresFor(int n) {
     int *a = new int[n];
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++) {
         cin >> a[i];
     }
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++) {
         cout << nSquares(a[i]) << endl;
     }
 }
 
-int main()
-{
+int main() {
     int n;
     cin >> n;
     squaresFor(n);

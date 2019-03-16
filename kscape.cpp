@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
     int n;
     int ax, ay, bx, by, cx, cy;
     scanf("%d", &n);
@@ -9,15 +8,12 @@ int main()
     scanf("%d %d", &ax, &ay);
     scanf("%d %d", &cx, &cy);
     if (
-        (ax < bx && cx < bx && ay < by && cy < by) ||
-        (ax > bx && cx > bx && ay > by && cy > by) ||
-        (ax > bx && cx > bx && ay < by && cy < by) ||
-        (ax < bx && cx < bx && ay > by && cy > by))
-    {
+            (ax < bx && cx < bx && ay < by && cy < by) ||
+            (ax > bx && cx > bx && ay > by && cy > by) ||
+            (ax > bx && cx > bx && ay < by && cy < by) ||
+            (ax < bx && cx < bx && ay > by && cy > by)) {
         printf("YES");
-    }
-    else
-    {
+    } else {
         printf("NO");
     }
     return 0;

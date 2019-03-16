@@ -23,8 +23,7 @@ string getWinner() {
         return "Friendship";
 }
 
-int main()
-{
+int main() {
     cout << getWinner();
     return 0;
 }

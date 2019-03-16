@@ -3,8 +3,7 @@
 
 using namespace std;
 
-void round()
-{
+void round() {
     int n;
     int a;
     int b;
@@ -13,24 +12,19 @@ void round()
     int round = 0;
     a--;
     b--;
-    while (a != b)
-    {
+    while (a != b) {
         a /= 2;
         b /= 2;
         round++;
     }
-    if (round == finalRound)
-    {
+    if (round == finalRound) {
         cout << "Final!";
-    }
-    else
-    {
+    } else {
         cout << round;
     }
 }
 
-int main()
-{
+int main() {
     round();
     return 0;
 }

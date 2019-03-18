@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/lcsubsequence.dir/lcsubsequence.cpp.o  -o lcsubsequence 

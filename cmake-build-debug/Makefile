@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named watermelon
+
+# Build rule for target.
+watermelon: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 watermelon
+.PHONY : watermelon
+
+# fast build rule for target.
+watermelon/fast:
+	$(MAKE) -f CMakeFiles/watermelon.dir/build.make CMakeFiles/watermelon.dir/build
+.PHONY : watermelon/fast
+
+#=============================================================================
+# Target rules for targets named snacktower
+
+# Build rule for target.
+snacktower: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 snacktower
+.PHONY : snacktower
+
+# fast build rule for target.
+snacktower/fast:
+	$(MAKE) -f CMakeFiles/snacktower.dir/build.make CMakeFiles/snacktower.dir/build
+.PHONY : snacktower/fast
+
+#=============================================================================
 # Target rules for targets named nextround
 
 # Build rule for target.
@@ -124,17 +150,57 @@ nextround/fast:
 .PHONY : nextround/fast
 
 #=============================================================================
-# Target rules for targets named watermelon
+# Target rules for targets named lcsubsequence
 
 # Build rule for target.
-watermelon: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 watermelon
-.PHONY : watermelon
+lcsubsequence: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lcsubsequence
+.PHONY : lcsubsequence
 
 # fast build rule for target.
-watermelon/fast:
-	$(MAKE) -f CMakeFiles/watermelon.dir/build.make CMakeFiles/watermelon.dir/build
-.PHONY : watermelon/fast
+lcsubsequence/fast:
+	$(MAKE) -f CMakeFiles/lcsubsequence.dir/build.make CMakeFiles/lcsubsequence.dir/build
+.PHONY : lcsubsequence/fast
+
+#=============================================================================
+# Target rules for targets named soccerchampionship
+
+# Build rule for target.
+soccerchampionship: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 soccerchampionship
+.PHONY : soccerchampionship
+
+# fast build rule for target.
+soccerchampionship/fast:
+	$(MAKE) -f CMakeFiles/soccerchampionship.dir/build.make CMakeFiles/soccerchampionship.dir/build
+.PHONY : soccerchampionship/fast
+
+lcsubsequence.o: lcsubsequence.cpp.o
+
+.PHONY : lcsubsequence.o
+
+# target to build an object file
+lcsubsequence.cpp.o:
+	$(MAKE) -f CMakeFiles/lcsubsequence.dir/build.make CMakeFiles/lcsubsequence.dir/lcsubsequence.cpp.o
+.PHONY : lcsubsequence.cpp.o
+
+lcsubsequence.i: lcsubsequence.cpp.i
+
+.PHONY : lcsubsequence.i
+
+# target to preprocess a source file
+lcsubsequence.cpp.i:
+	$(MAKE) -f CMakeFiles/lcsubsequence.dir/build.make CMakeFiles/lcsubsequence.dir/lcsubsequence.cpp.i
+.PHONY : lcsubsequence.cpp.i
+
+lcsubsequence.s: lcsubsequence.cpp.s
+
+.PHONY : lcsubsequence.s
+
+# target to generate assembly for a file
+lcsubsequence.cpp.s:
+	$(MAKE) -f CMakeFiles/lcsubsequence.dir/build.make CMakeFiles/lcsubsequence.dir/lcsubsequence.cpp.s
+.PHONY : lcsubsequence.cpp.s
 
 nextround.o: nextround.cpp.o
 
@@ -162,6 +228,60 @@ nextround.s: nextround.cpp.s
 nextround.cpp.s:
 	$(MAKE) -f CMakeFiles/nextround.dir/build.make CMakeFiles/nextround.dir/nextround.cpp.s
 .PHONY : nextround.cpp.s
+
+snacktower.o: snacktower.cpp.o
+
+.PHONY : snacktower.o
+
+# target to build an object file
+snacktower.cpp.o:
+	$(MAKE) -f CMakeFiles/snacktower.dir/build.make CMakeFiles/snacktower.dir/snacktower.cpp.o
+.PHONY : snacktower.cpp.o
+
+snacktower.i: snacktower.cpp.i
+
+.PHONY : snacktower.i
+
+# target to preprocess a source file
+snacktower.cpp.i:
+	$(MAKE) -f CMakeFiles/snacktower.dir/build.make CMakeFiles/snacktower.dir/snacktower.cpp.i
+.PHONY : snacktower.cpp.i
+
+snacktower.s: snacktower.cpp.s
+
+.PHONY : snacktower.s
+
+# target to generate assembly for a file
+snacktower.cpp.s:
+	$(MAKE) -f CMakeFiles/snacktower.dir/build.make CMakeFiles/snacktower.dir/snacktower.cpp.s
+.PHONY : snacktower.cpp.s
+
+soccerchampionship.o: soccerchampionship.cpp.o
+
+.PHONY : soccerchampionship.o
+
+# target to build an object file
+soccerchampionship.cpp.o:
+	$(MAKE) -f CMakeFiles/soccerchampionship.dir/build.make CMakeFiles/soccerchampionship.dir/soccerchampionship.cpp.o
+.PHONY : soccerchampionship.cpp.o
+
+soccerchampionship.i: soccerchampionship.cpp.i
+
+.PHONY : soccerchampionship.i
+
+# target to preprocess a source file
+soccerchampionship.cpp.i:
+	$(MAKE) -f CMakeFiles/soccerchampionship.dir/build.make CMakeFiles/soccerchampionship.dir/soccerchampionship.cpp.i
+.PHONY : soccerchampionship.cpp.i
+
+soccerchampionship.s: soccerchampionship.cpp.s
+
+.PHONY : soccerchampionship.s
+
+# target to generate assembly for a file
+soccerchampionship.cpp.s:
+	$(MAKE) -f CMakeFiles/soccerchampionship.dir/build.make CMakeFiles/soccerchampionship.dir/soccerchampionship.cpp.s
+.PHONY : soccerchampionship.cpp.s
 
 watermelon.o: watermelon.cpp.o
 
@@ -197,12 +317,24 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... nextround"
 	@echo "... watermelon"
+	@echo "... snacktower"
+	@echo "... nextround"
+	@echo "... lcsubsequence"
+	@echo "... soccerchampionship"
+	@echo "... edit_cache"
+	@echo "... lcsubsequence.o"
+	@echo "... lcsubsequence.i"
+	@echo "... lcsubsequence.s"
 	@echo "... nextround.o"
 	@echo "... nextround.i"
 	@echo "... nextround.s"
+	@echo "... snacktower.o"
+	@echo "... snacktower.i"
+	@echo "... snacktower.s"
+	@echo "... soccerchampionship.o"
+	@echo "... soccerchampionship.i"
+	@echo "... soccerchampionship.s"
 	@echo "... watermelon.o"
 	@echo "... watermelon.i"
 	@echo "... watermelon.s"

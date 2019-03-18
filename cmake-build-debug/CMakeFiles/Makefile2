@@ -65,13 +65,87 @@ CMAKE_SOURCE_DIR = /home/blacksabbathx/maratones
 CMAKE_BINARY_DIR = /home/blacksabbathx/maratones/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/watermelon.dir
+
+# All Build rule for target.
+CMakeFiles/watermelon.dir/all:
+	$(MAKE) -f CMakeFiles/watermelon.dir/build.make CMakeFiles/watermelon.dir/depend
+	$(MAKE) -f CMakeFiles/watermelon.dir/build.make CMakeFiles/watermelon.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target watermelon"
+.PHONY : CMakeFiles/watermelon.dir/all
+
+# Include target in all.
+all: CMakeFiles/watermelon.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/watermelon.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/watermelon.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/watermelon.dir/rule
+
+# Convenience name for target.
+watermelon: CMakeFiles/watermelon.dir/rule
+
+.PHONY : watermelon
+
+# clean rule for target.
+CMakeFiles/watermelon.dir/clean:
+	$(MAKE) -f CMakeFiles/watermelon.dir/build.make CMakeFiles/watermelon.dir/clean
+.PHONY : CMakeFiles/watermelon.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/watermelon.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/snacktower.dir
+
+# All Build rule for target.
+CMakeFiles/snacktower.dir/all:
+	$(MAKE) -f CMakeFiles/snacktower.dir/build.make CMakeFiles/snacktower.dir/depend
+	$(MAKE) -f CMakeFiles/snacktower.dir/build.make CMakeFiles/snacktower.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target snacktower"
+.PHONY : CMakeFiles/snacktower.dir/all
+
+# Include target in all.
+all: CMakeFiles/snacktower.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/snacktower.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/snacktower.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/snacktower.dir/rule
+
+# Convenience name for target.
+snacktower: CMakeFiles/snacktower.dir/rule
+
+.PHONY : snacktower
+
+# clean rule for target.
+CMakeFiles/snacktower.dir/clean:
+	$(MAKE) -f CMakeFiles/snacktower.dir/build.make CMakeFiles/snacktower.dir/clean
+.PHONY : CMakeFiles/snacktower.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/snacktower.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/nextround.dir
 
 # All Build rule for target.
 CMakeFiles/nextround.dir/all:
 	$(MAKE) -f CMakeFiles/nextround.dir/build.make CMakeFiles/nextround.dir/depend
 	$(MAKE) -f CMakeFiles/nextround.dir/build.make CMakeFiles/nextround.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target nextround"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target nextround"
 .PHONY : CMakeFiles/nextround.dir/all
 
 # Include target in all.
@@ -102,39 +176,76 @@ clean: CMakeFiles/nextround.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/watermelon.dir
+# Target rules for target CMakeFiles/lcsubsequence.dir
 
 # All Build rule for target.
-CMakeFiles/watermelon.dir/all:
-	$(MAKE) -f CMakeFiles/watermelon.dir/build.make CMakeFiles/watermelon.dir/depend
-	$(MAKE) -f CMakeFiles/watermelon.dir/build.make CMakeFiles/watermelon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target watermelon"
-.PHONY : CMakeFiles/watermelon.dir/all
+CMakeFiles/lcsubsequence.dir/all:
+	$(MAKE) -f CMakeFiles/lcsubsequence.dir/build.make CMakeFiles/lcsubsequence.dir/depend
+	$(MAKE) -f CMakeFiles/lcsubsequence.dir/build.make CMakeFiles/lcsubsequence.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target lcsubsequence"
+.PHONY : CMakeFiles/lcsubsequence.dir/all
 
 # Include target in all.
-all: CMakeFiles/watermelon.dir/all
+all: CMakeFiles/lcsubsequence.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/watermelon.dir/rule: cmake_check_build_system
+CMakeFiles/lcsubsequence.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/watermelon.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lcsubsequence.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/watermelon.dir/rule
+.PHONY : CMakeFiles/lcsubsequence.dir/rule
 
 # Convenience name for target.
-watermelon: CMakeFiles/watermelon.dir/rule
+lcsubsequence: CMakeFiles/lcsubsequence.dir/rule
 
-.PHONY : watermelon
-
-# clean rule for target.
-CMakeFiles/watermelon.dir/clean:
-	$(MAKE) -f CMakeFiles/watermelon.dir/build.make CMakeFiles/watermelon.dir/clean
-.PHONY : CMakeFiles/watermelon.dir/clean
+.PHONY : lcsubsequence
 
 # clean rule for target.
-clean: CMakeFiles/watermelon.dir/clean
+CMakeFiles/lcsubsequence.dir/clean:
+	$(MAKE) -f CMakeFiles/lcsubsequence.dir/build.make CMakeFiles/lcsubsequence.dir/clean
+.PHONY : CMakeFiles/lcsubsequence.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/lcsubsequence.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/soccerchampionship.dir
+
+# All Build rule for target.
+CMakeFiles/soccerchampionship.dir/all:
+	$(MAKE) -f CMakeFiles/soccerchampionship.dir/build.make CMakeFiles/soccerchampionship.dir/depend
+	$(MAKE) -f CMakeFiles/soccerchampionship.dir/build.make CMakeFiles/soccerchampionship.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target soccerchampionship"
+.PHONY : CMakeFiles/soccerchampionship.dir/all
+
+# Include target in all.
+all: CMakeFiles/soccerchampionship.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/soccerchampionship.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/soccerchampionship.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/soccerchampionship.dir/rule
+
+# Convenience name for target.
+soccerchampionship: CMakeFiles/soccerchampionship.dir/rule
+
+.PHONY : soccerchampionship
+
+# clean rule for target.
+CMakeFiles/soccerchampionship.dir/clean:
+	$(MAKE) -f CMakeFiles/soccerchampionship.dir/build.make CMakeFiles/soccerchampionship.dir/clean
+.PHONY : CMakeFiles/soccerchampionship.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/soccerchampionship.dir/clean
 
 .PHONY : clean
 

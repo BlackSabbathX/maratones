@@ -124,6 +124,19 @@ launchofcollider/fast:
 .PHONY : launchofcollider/fast
 
 #=============================================================================
+# Target rules for targets named watchmens
+
+# Build rule for target.
+watchmens: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 watchmens
+.PHONY : watchmens
+
+# fast build rule for target.
+watchmens/fast:
+	$(MAKE) -f CMakeFiles/watchmens.dir/build.make CMakeFiles/watchmens.dir/build
+.PHONY : watchmens/fast
+
+#=============================================================================
 # Target rules for targets named watermelon
 
 # Build rule for target.
@@ -443,6 +456,33 @@ soldiersandcards.cpp.s:
 	$(MAKE) -f CMakeFiles/soldiersandcards.dir/build.make CMakeFiles/soldiersandcards.dir/soldiersandcards.cpp.s
 .PHONY : soldiersandcards.cpp.s
 
+watchmens.o: watchmens.cpp.o
+
+.PHONY : watchmens.o
+
+# target to build an object file
+watchmens.cpp.o:
+	$(MAKE) -f CMakeFiles/watchmens.dir/build.make CMakeFiles/watchmens.dir/watchmens.cpp.o
+.PHONY : watchmens.cpp.o
+
+watchmens.i: watchmens.cpp.i
+
+.PHONY : watchmens.i
+
+# target to preprocess a source file
+watchmens.cpp.i:
+	$(MAKE) -f CMakeFiles/watchmens.dir/build.make CMakeFiles/watchmens.dir/watchmens.cpp.i
+.PHONY : watchmens.cpp.i
+
+watchmens.s: watchmens.cpp.s
+
+.PHONY : watchmens.s
+
+# target to generate assembly for a file
+watchmens.cpp.s:
+	$(MAKE) -f CMakeFiles/watchmens.dir/build.make CMakeFiles/watchmens.dir/watchmens.cpp.s
+.PHONY : watchmens.cpp.s
+
 watermelon.o: watermelon.cpp.o
 
 .PHONY : watermelon.o
@@ -479,6 +519,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... launchofcollider"
+	@echo "... watchmens"
 	@echo "... watermelon"
 	@echo "... snacktower"
 	@echo "... soldiersandcards"
@@ -511,6 +552,9 @@ help:
 	@echo "... soldiersandcards.o"
 	@echo "... soldiersandcards.i"
 	@echo "... soldiersandcards.s"
+	@echo "... watchmens.o"
+	@echo "... watchmens.i"
+	@echo "... watchmens.s"
 	@echo "... watermelon.o"
 	@echo "... watermelon.i"
 	@echo "... watermelon.s"

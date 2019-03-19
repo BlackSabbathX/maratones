@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/watchmens.dir/watchmens.cpp.o  -o watchmens 

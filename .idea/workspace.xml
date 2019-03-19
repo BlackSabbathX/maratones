@@ -2,15 +2,16 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="maratones" targetName="soccerchampionship" />
-      <config projectName="maratones" targetName="findthebone" />
-      <config projectName="maratones" targetName="launchofcollider" />
-      <config projectName="maratones" targetName="raisingbacteria" />
       <config projectName="maratones" targetName="soldiersandcards" />
       <config projectName="maratones" targetName="watermelon" />
-      <config projectName="maratones" targetName="lcsubsequence" />
-      <config projectName="maratones" targetName="snacktower" />
       <config projectName="maratones" targetName="nextround" />
+      <config projectName="maratones" targetName="findthebone" />
+      <config projectName="maratones" targetName="soccerchampionship" />
+      <config projectName="maratones" targetName="watchmens" />
+      <config projectName="maratones" targetName="raisingbacteria" />
+      <config projectName="maratones" targetName="snacktower" />
+      <config projectName="maratones" targetName="launchofcollider" />
+      <config projectName="maratones" targetName="lcsubsequence" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -44,10 +45,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/soldiersandcards.cpp">
+        <entry file="file://$PROJECT_DIR$/watchmens.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="322">
+              <caret line="50" column="18" lean-forward="true" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -76,12 +77,13 @@
         <option value="$PROJECT_DIR$/lcsubsequence.cpp" />
         <option value="$PROJECT_DIR$/snacktower.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/soccerchampionship.cpp" />
         <option value="$PROJECT_DIR$/raisingbacteria.cpp" />
         <option value="$PROJECT_DIR$/launchofcollider.cpp" />
         <option value="$PROJECT_DIR$/findthebone.cpp" />
         <option value="$PROJECT_DIR$/luckypermutationtriple.cpp" />
         <option value="$PROJECT_DIR$/soldiersandcards.cpp" />
+        <option value="$PROJECT_DIR$/soccerchampionship.cpp" />
+        <option value="$PROJECT_DIR$/watchmens.cpp" />
       </list>
     </option>
   </component>
@@ -140,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.soldiersandcards">
+  <component name="RunManager" selected="Application.watchmens">
     <configuration name="findthebone" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="maratones" TARGET_NAME="findthebone" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="maratones" RUN_TARGET_NAME="findthebone">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -181,6 +183,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="watchmens" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="maratones" TARGET_NAME="watchmens" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="maratones" RUN_TARGET_NAME="watchmens">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="watermelon" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="maratones" TARGET_NAME="watermelon" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="maratones" RUN_TARGET_NAME="watermelon">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -195,6 +202,7 @@
       <item itemvalue="Application.snacktower" />
       <item itemvalue="Application.soccerchampionship" />
       <item itemvalue="Application.soldiersandcards" />
+      <item itemvalue="Application.watchmens" />
       <item itemvalue="Application.watermelon" />
     </list>
   </component>
@@ -215,28 +223,28 @@
       <workItem from="1552862371331" duration="22606000" />
       <workItem from="1552885203509" duration="1751000" />
       <workItem from="1552964910463" duration="15237000" />
-      <workItem from="1553001264728" duration="2996000" />
+      <workItem from="1553001264728" duration="10980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64821000" />
+    <option name="totallyTimeSpent" value="72805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="725" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50158733" side_tool="true" weight="0.23712121" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4984127" weight="0.24848485" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4984127" visible="true" weight="0.24848485" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32961783" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32961783" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.3280255" />
+      <window_info anchor="bottom" auto_hide="true" id="Messages" order="4" type="SLIDING" weight="0.32643312" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" auto_hide="true" id="Run" order="7" weight="0.5923567" />
+      <window_info anchor="bottom" auto_hide="true" id="Run" order="7" type="SLIDING" weight="0.5923567" />
       <window_info anchor="bottom" auto_hide="true" id="Debug" order="8" weight="0.6066879" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="CMake" order="10" weight="0.32838285" />
@@ -325,6 +333,26 @@
           <url>file://$PROJECT_DIR$/launchofcollider.cpp</url>
           <line>13</line>
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/watchmens.cpp</url>
+          <line>62</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/watchmens.cpp</url>
+          <line>56</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/watchmens.cpp</url>
+          <line>48</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/watchmens.cpp</url>
+          <line>45</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -418,16 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/soccerchampionship.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2277">
-          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/launchofcollider.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -445,8 +463,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/soldiersandcards.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="428">
+          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soccerchampionship.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/watchmens.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="50" column="18" lean-forward="true" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

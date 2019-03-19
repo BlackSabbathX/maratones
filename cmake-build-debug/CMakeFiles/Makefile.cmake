@@ -47,6 +47,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/launchofcollider.dir/DependInfo.cmake"
+  "CMakeFiles/watchmens.dir/DependInfo.cmake"
   "CMakeFiles/watermelon.dir/DependInfo.cmake"
   "CMakeFiles/snacktower.dir/DependInfo.cmake"
   "CMakeFiles/soldiersandcards.dir/DependInfo.cmake"

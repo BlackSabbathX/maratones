@@ -137,6 +137,19 @@ snacktower/fast:
 .PHONY : snacktower/fast
 
 #=============================================================================
+# Target rules for targets named raisingbacteria
+
+# Build rule for target.
+raisingbacteria: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 raisingbacteria
+.PHONY : raisingbacteria
+
+# fast build rule for target.
+raisingbacteria/fast:
+	$(MAKE) -f CMakeFiles/raisingbacteria.dir/build.make CMakeFiles/raisingbacteria.dir/build
+.PHONY : raisingbacteria/fast
+
+#=============================================================================
 # Target rules for targets named nextround
 
 # Build rule for target.
@@ -229,6 +242,33 @@ nextround.cpp.s:
 	$(MAKE) -f CMakeFiles/nextround.dir/build.make CMakeFiles/nextround.dir/nextround.cpp.s
 .PHONY : nextround.cpp.s
 
+raisingbacteria.o: raisingbacteria.cpp.o
+
+.PHONY : raisingbacteria.o
+
+# target to build an object file
+raisingbacteria.cpp.o:
+	$(MAKE) -f CMakeFiles/raisingbacteria.dir/build.make CMakeFiles/raisingbacteria.dir/raisingbacteria.cpp.o
+.PHONY : raisingbacteria.cpp.o
+
+raisingbacteria.i: raisingbacteria.cpp.i
+
+.PHONY : raisingbacteria.i
+
+# target to preprocess a source file
+raisingbacteria.cpp.i:
+	$(MAKE) -f CMakeFiles/raisingbacteria.dir/build.make CMakeFiles/raisingbacteria.dir/raisingbacteria.cpp.i
+.PHONY : raisingbacteria.cpp.i
+
+raisingbacteria.s: raisingbacteria.cpp.s
+
+.PHONY : raisingbacteria.s
+
+# target to generate assembly for a file
+raisingbacteria.cpp.s:
+	$(MAKE) -f CMakeFiles/raisingbacteria.dir/build.make CMakeFiles/raisingbacteria.dir/raisingbacteria.cpp.s
+.PHONY : raisingbacteria.cpp.s
+
 snacktower.o: snacktower.cpp.o
 
 .PHONY : snacktower.o
@@ -317,18 +357,22 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... watermelon"
 	@echo "... snacktower"
+	@echo "... raisingbacteria"
 	@echo "... nextround"
 	@echo "... lcsubsequence"
 	@echo "... soccerchampionship"
-	@echo "... edit_cache"
 	@echo "... lcsubsequence.o"
 	@echo "... lcsubsequence.i"
 	@echo "... lcsubsequence.s"
 	@echo "... nextround.o"
 	@echo "... nextround.i"
 	@echo "... nextround.s"
+	@echo "... raisingbacteria.o"
+	@echo "... raisingbacteria.i"
+	@echo "... raisingbacteria.s"
 	@echo "... snacktower.o"
 	@echo "... snacktower.i"
 	@echo "... snacktower.s"

@@ -2,11 +2,12 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="maratones" targetName="watermelon" />
       <config projectName="maratones" targetName="nextround" />
+      <config projectName="maratones" targetName="soccerchampionship" />
+      <config projectName="maratones" targetName="raisingbacteria" />
       <config projectName="maratones" targetName="snacktower" />
       <config projectName="maratones" targetName="lcsubsequence" />
-      <config projectName="maratones" targetName="soccerchampionship" />
-      <config projectName="maratones" targetName="watermelon" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -16,7 +17,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ef6937d-92bf-4db1-89a0-a07df882042c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/soccerchampionship.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/soccerchampionship.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/snacktower.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/snacktower.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/soccerchampionship.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/soccerchampionship.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/watermelon.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/watermelon.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/maratones.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/maratones.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,13 +42,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soccerchampionship.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+            <state relative-caret-position="2277">
+              <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/raisingbacteria.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,6 +88,7 @@
         <option value="$PROJECT_DIR$/snacktower.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/soccerchampionship.cpp" />
+        <option value="$PROJECT_DIR$/raisingbacteria.cpp" />
       </list>
     </option>
   </component>
@@ -123,13 +147,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.soccerchampionship">
+  <component name="RunManager" selected="Application.raisingbacteria">
     <configuration name="lcsubsequence" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="maratones" TARGET_NAME="lcsubsequence" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="maratones" RUN_TARGET_NAME="lcsubsequence">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="nextround" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="maratones" TARGET_NAME="nextround" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="maratones" RUN_TARGET_NAME="nextround">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="raisingbacteria" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="maratones" TARGET_NAME="raisingbacteria" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="maratones" RUN_TARGET_NAME="raisingbacteria">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -152,6 +181,7 @@
     <list>
       <item itemvalue="Application.lcsubsequence" />
       <item itemvalue="Application.nextround" />
+      <item itemvalue="Application.raisingbacteria" />
       <item itemvalue="Application.snacktower" />
       <item itemvalue="Application.soccerchampionship" />
       <item itemvalue="Application.watermelon" />
@@ -173,19 +203,19 @@
       <workItem from="1552801760078" duration="4442000" />
       <workItem from="1552862371331" duration="22606000" />
       <workItem from="1552885203509" duration="1751000" />
-      <workItem from="1552964910463" duration="9282000" />
+      <workItem from="1552964910463" duration="10503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55870000" />
+    <option name="totallyTimeSpent" value="57091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="725" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50158733" side_tool="true" weight="0.23712121" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4984127" weight="0.24469697" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4984127" visible="true" weight="0.24469697" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32961783" />
@@ -338,10 +368,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/soccerchampionship.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+        <state relative-caret-position="2277">
+          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raisingbacteria.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

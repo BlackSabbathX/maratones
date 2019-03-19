@@ -9,14 +9,17 @@ using namespace std;
 struct Team {
     string name;
     int points, goalsdiff, goalsscored, goalsvisitor;
+    vector<string> win_to;
 
-    Team(string name) : name(move(name)) {};
+    Team(string name) : name(name) {};
 
-    void match(int goalsf, int goalsc, bool visitor) {
+    void match(int goalsf, int goalsc, bool visitor, string team2) {
         this->goalsdiff += (goalsf - goalsc);
         this->goalsscored += goalsf;
-        if (goalsf > goalsc) this->points += 3;
-        else if (goalsf == goalsc) this->points += 1;
+        if (goalsf > goalsc) {
+            this->points += 3;
+            this->win_to.emplace_back(team2);
+        } else if (goalsf == goalsc) this->points += 1;
         if (visitor) this->goalsvisitor += goalsf;
     };
 };
@@ -25,8 +28,8 @@ struct Match {
     string team1, team2;
     int goals1, goals2;
 
-    Match(string team1, int goals1, string team2, int goals2) : team1(move(team1)),
-                                                                team2(move(team2)),
+    Match(string team1, int goals1, string team2, int goals2) : team1(team1),
+                                                                team2(team2),
                                                                 goals1(goals1),
                                                                 goals2(goals2) {};
 };
@@ -36,9 +39,8 @@ struct football_criteria {
         if (team1->points == team2->points) {
             if (team1->goalsdiff == team2->goalsdiff) {
                 if (team1->goalsscored == team2->goalsscored) {
-                    if (team1->goalsvisitor == team2->goalsvisitor) {
-                        return team1->name > team2->name;
-                    } else return team1->goalsvisitor > team2->goalsvisitor;
+                    if (team1->goalsvisitor == team2->goalsvisitor) return team1->name > team2->name;
+                    else return team1->goalsvisitor > team2->goalsvisitor;
                 } else return team1->goalsscored > team2->goalsscored;
             } else return team1->goalsdiff > team2->goalsdiff;
         } else return team1->points > team2->points;
@@ -61,12 +63,10 @@ Match cast(const string &t) {
     const unsigned long i = (int) t.find(" vs. "), n = t.size();
     const string str1 = t.substr(0, i), str2 = t.substr(i + 5, n - i - 4);
     const unsigned long p1 = str1.find_last_of(' '), p2 = str2.find_first_of(' '), n1 = str1.size(), n2 = str2.size();
-    return Match(
-            str1.substr(0, p1),
-            atoi(str1.substr(p1 + 1, n1 - p1).c_str()),
-            str2.substr(p2 + 1, n2 - p2),
-            atoi(str2.substr(0, p2).c_str())
-    );
+    return Match(str1.substr(0, p1),
+                 atoi(str1.substr(p1 + 1, n1 - p1).c_str()),
+                 str2.substr(p2 + 1, n2 - p2),
+                 atoi(str2.substr(0, p2).c_str()));
 }
 
 vector<Team *> teams;
@@ -89,31 +89,47 @@ Team *get(const string &name) {
     return bin_search(0, h, name);
 }
 
+int n_times_paradox() {
+    int times = 0;
+    for (Team *team1 : teams) {
+        for (Team *team2 : teams) {
+            if (team1->name == team2->name) break;
+            for (const string &t_n : team1->win_to) {
+                if (team2->name == t_n) {
+                    times++;
+                    break;
+                }
+            }
+        }
+    }
+    return times;
+}
+
 int main() {
     ios::sync_with_stdio(false);
-    int m;
-    string t;
-//    cin >> m;
-//    while (scanf("%d", &m) != EOF) {
-    scanf("%d", &m);
-    vector<Match> matches;
-    for (int i = 0; i < m; ++i) {
-        getline(cin, t);
-        matches.emplace_back(cast(t));
+    string t, ms;
+    vector<string> lines_to_p;
+    while (getline(cin, ms) && !ms.empty()) {
+        teams.clear();
+        vector<Match> matches;
+        int m = atoi(ms.c_str());
+        for (int i = 0; i < m; i++) {
+            getline(cin, t);
+            matches.emplace_back(cast(t));
+        }
+        sort(matches.begin(), matches.end(), by_team1());
+        Team *temp = new Team("1");
+        for (const Match match : matches) {
+            if (temp->name != match.team1) temp = get(match.team1);
+            temp->match(match.goals1, match.goals2, false, match.team2);
+            get(match.team2)->match(match.goals2, match.goals1, true, match.team1);
+            int ih = 0;
+        }
+        sort(teams.begin(), teams.end(), football_criteria());
+        m = 1;
+        lines_to_p.emplace_back("The paradox occurs " + to_string(n_times_paradox()) + " time(s).");
+        for (Team *team : teams) lines_to_p.emplace_back(to_string(m++) + ". " + team->name);
     }
-    sort(matches.begin(), matches.end(), by_team1());
-    Team *temp = new Team("1");
-    for (const Match &match : matches) {
-        if (temp->name != match.team1) temp = get(match.team1);
-        temp->match(match.goals1, match.goals2, false);
-        get(match.team2)->match(match.goals2, match.goals1, true);
-    }
-    sort(teams.begin(), teams.end(), football_criteria());
-    m = 1;
-    for (Team *team : teams) {
-        cout << m << ". " << team->name << endl;
-        m++;
-    }
-//    }
+    for (const string &line : lines_to_p) cout << line << endl;
     return 0;
 }

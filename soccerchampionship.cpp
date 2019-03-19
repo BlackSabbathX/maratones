@@ -11,9 +11,9 @@ struct Team {
     int points, goalsdiff, goalsscored, goalsvisitor;
     vector<string> win_to;
 
-    Team(string name) : name(name) {};
+    Team(string name) : name(move(name)) {};
 
-    void match(int goalsf, int goalsc, bool visitor, string team2) {
+    void match(const int &goalsf, const int &goalsc, const bool &visitor, const string &team2) {
         this->goalsdiff += (goalsf - goalsc);
         this->goalsscored += goalsf;
         if (goalsf > goalsc) {
@@ -28,10 +28,10 @@ struct Match {
     string team1, team2;
     int goals1, goals2;
 
-    Match(string team1, int goals1, string team2, int goals2) : team1(team1),
-                                                                team2(team2),
-                                                                goals1(goals1),
-                                                                goals2(goals2) {};
+    Match(const string &team1, const int &goals1, const string &team2, const int &goals2) : team1(team1),
+                                                                                            team2(team2),
+                                                                                            goals1(goals1),
+                                                                                            goals2(goals2) {};
 };
 
 struct football_criteria {
@@ -60,7 +60,7 @@ struct by_team1 {
 };
 
 Match cast(const string &t) {
-    const unsigned long i = (int) t.find(" vs. "), n = t.size();
+    const unsigned long i = t.find(" vs. "), n = t.size();
     const string str1 = t.substr(0, i), str2 = t.substr(i + 5, n - i - 4);
     const unsigned long p1 = str1.find_last_of(' '), p2 = str2.find_first_of(' '), n1 = str1.size(), n2 = str2.size();
     return Match(str1.substr(0, p1),
@@ -71,7 +71,7 @@ Match cast(const string &t) {
 
 vector<Team *> teams;
 
-Team *bin_search(int l, int h, const string &name) {
+Team *bin_search(const int l, const int h, const string &name) {
     if (h >= l) {
         int m = l + (h - l) / 2;
         if (teams[m]->name == name) return teams[m];
@@ -91,8 +91,8 @@ Team *get(const string &name) {
 
 int n_times_paradox() {
     int times = 0;
-    for (Team *team1 : teams) {
-        for (Team *team2 : teams) {
+    for (const Team *team1 : teams) {
+        for (const Team *team2 : teams) {
             if (team1->name == team2->name) break;
             for (const string &t_n : team1->win_to) {
                 if (team2->name == t_n) {
@@ -119,16 +119,15 @@ int main() {
         }
         sort(matches.begin(), matches.end(), by_team1());
         Team *temp = new Team("1");
-        for (const Match match : matches) {
+        for (const Match &match : matches) {
             if (temp->name != match.team1) temp = get(match.team1);
             temp->match(match.goals1, match.goals2, false, match.team2);
             get(match.team2)->match(match.goals2, match.goals1, true, match.team1);
-            int ih = 0;
         }
         sort(teams.begin(), teams.end(), football_criteria());
         m = 1;
         lines_to_p.emplace_back("The paradox occurs " + to_string(n_times_paradox()) + " time(s).");
-        for (Team *team : teams) lines_to_p.emplace_back(to_string(m++) + ". " + team->name);
+        for (const Team *team : teams) lines_to_p.emplace_back(to_string(m++) + ". " + team->name);
     }
     for (const string &line : lines_to_p) cout << line << endl;
     return 0;

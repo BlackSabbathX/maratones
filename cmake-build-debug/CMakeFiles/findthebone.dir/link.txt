@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/findthebone.dir/findthebone.cpp.o  -o findthebone 

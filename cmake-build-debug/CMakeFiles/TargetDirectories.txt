@@ -1,8 +1,10 @@
 /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles/launchofcollider.dir
 /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles/watermelon.dir
 /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles/snacktower.dir
 /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles/raisingbacteria.dir
+/home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles/findthebone.dir
 /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles/nextround.dir
 /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles/lcsubsequence.dir
 /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles/soccerchampionship.dir

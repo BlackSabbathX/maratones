@@ -37,6 +37,52 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="launchofcollider">
+				<Option output="/home/blacksabbathx/maratones/cmake-build-debug/launchofcollider" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blacksabbathx/maratones/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 launchofcollider"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="launchofcollider/fast">
+				<Option output="/home/blacksabbathx/maratones/cmake-build-debug/launchofcollider" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blacksabbathx/maratones/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 launchofcollider/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="watermelon">
 				<Option output="/home/blacksabbathx/maratones/cmake-build-debug/watermelon" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/blacksabbathx/maratones/cmake-build-debug"/>
@@ -170,6 +216,52 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 raisingbacteria/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="findthebone">
+				<Option output="/home/blacksabbathx/maratones/cmake-build-debug/findthebone" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blacksabbathx/maratones/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 findthebone"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="findthebone/fast">
+				<Option output="/home/blacksabbathx/maratones/cmake-build-debug/findthebone" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blacksabbathx/maratones/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 findthebone/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/blacksabbathx/maratones/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -314,6 +406,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/blacksabbathx/maratones/findthebone.cpp">
+			<Option target="findthebone"/>
+		</Unit>
+		<Unit filename="/home/blacksabbathx/maratones/launchofcollider.cpp">
+			<Option target="launchofcollider"/>
+		</Unit>
 		<Unit filename="/home/blacksabbathx/maratones/lcsubsequence.cpp">
 			<Option target="lcsubsequence"/>
 		</Unit>

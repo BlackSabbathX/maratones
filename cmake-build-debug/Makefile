@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named launchofcollider
+
+# Build rule for target.
+launchofcollider: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 launchofcollider
+.PHONY : launchofcollider
+
+# fast build rule for target.
+launchofcollider/fast:
+	$(MAKE) -f CMakeFiles/launchofcollider.dir/build.make CMakeFiles/launchofcollider.dir/build
+.PHONY : launchofcollider/fast
+
+#=============================================================================
 # Target rules for targets named watermelon
 
 # Build rule for target.
@@ -150,6 +163,19 @@ raisingbacteria/fast:
 .PHONY : raisingbacteria/fast
 
 #=============================================================================
+# Target rules for targets named findthebone
+
+# Build rule for target.
+findthebone: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 findthebone
+.PHONY : findthebone
+
+# fast build rule for target.
+findthebone/fast:
+	$(MAKE) -f CMakeFiles/findthebone.dir/build.make CMakeFiles/findthebone.dir/build
+.PHONY : findthebone/fast
+
+#=============================================================================
 # Target rules for targets named nextround
 
 # Build rule for target.
@@ -187,6 +213,60 @@ soccerchampionship: cmake_check_build_system
 soccerchampionship/fast:
 	$(MAKE) -f CMakeFiles/soccerchampionship.dir/build.make CMakeFiles/soccerchampionship.dir/build
 .PHONY : soccerchampionship/fast
+
+findthebone.o: findthebone.cpp.o
+
+.PHONY : findthebone.o
+
+# target to build an object file
+findthebone.cpp.o:
+	$(MAKE) -f CMakeFiles/findthebone.dir/build.make CMakeFiles/findthebone.dir/findthebone.cpp.o
+.PHONY : findthebone.cpp.o
+
+findthebone.i: findthebone.cpp.i
+
+.PHONY : findthebone.i
+
+# target to preprocess a source file
+findthebone.cpp.i:
+	$(MAKE) -f CMakeFiles/findthebone.dir/build.make CMakeFiles/findthebone.dir/findthebone.cpp.i
+.PHONY : findthebone.cpp.i
+
+findthebone.s: findthebone.cpp.s
+
+.PHONY : findthebone.s
+
+# target to generate assembly for a file
+findthebone.cpp.s:
+	$(MAKE) -f CMakeFiles/findthebone.dir/build.make CMakeFiles/findthebone.dir/findthebone.cpp.s
+.PHONY : findthebone.cpp.s
+
+launchofcollider.o: launchofcollider.cpp.o
+
+.PHONY : launchofcollider.o
+
+# target to build an object file
+launchofcollider.cpp.o:
+	$(MAKE) -f CMakeFiles/launchofcollider.dir/build.make CMakeFiles/launchofcollider.dir/launchofcollider.cpp.o
+.PHONY : launchofcollider.cpp.o
+
+launchofcollider.i: launchofcollider.cpp.i
+
+.PHONY : launchofcollider.i
+
+# target to preprocess a source file
+launchofcollider.cpp.i:
+	$(MAKE) -f CMakeFiles/launchofcollider.dir/build.make CMakeFiles/launchofcollider.dir/launchofcollider.cpp.i
+.PHONY : launchofcollider.cpp.i
+
+launchofcollider.s: launchofcollider.cpp.s
+
+.PHONY : launchofcollider.s
+
+# target to generate assembly for a file
+launchofcollider.cpp.s:
+	$(MAKE) -f CMakeFiles/launchofcollider.dir/build.make CMakeFiles/launchofcollider.dir/launchofcollider.cpp.s
+.PHONY : launchofcollider.cpp.s
 
 lcsubsequence.o: lcsubsequence.cpp.o
 
@@ -358,12 +438,20 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... launchofcollider"
 	@echo "... watermelon"
 	@echo "... snacktower"
 	@echo "... raisingbacteria"
+	@echo "... findthebone"
 	@echo "... nextround"
 	@echo "... lcsubsequence"
 	@echo "... soccerchampionship"
+	@echo "... findthebone.o"
+	@echo "... findthebone.i"
+	@echo "... findthebone.s"
+	@echo "... launchofcollider.o"
+	@echo "... launchofcollider.i"
+	@echo "... launchofcollider.s"
 	@echo "... lcsubsequence.o"
 	@echo "... lcsubsequence.i"
 	@echo "... lcsubsequence.s"

@@ -16,7 +16,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ef6937d-92bf-4db1-89a0-a07df882042c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/soccerchampionship.dir/soccerchampionship.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/soccerchampionship.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/soccerchampionship.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -35,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/soccerchampionship.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="58" column="6" lean-forward="true" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
+            <state relative-caret-position="129">
+              <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -174,12 +173,12 @@
       <workItem from="1552801760078" duration="4442000" />
       <workItem from="1552862371331" duration="22606000" />
       <workItem from="1552885203509" duration="1751000" />
-      <workItem from="1552964910463" duration="7693000" />
+      <workItem from="1552964910463" duration="9282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54281000" />
+    <option name="totallyTimeSpent" value="55870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="725" extended-state="6" />
@@ -330,10 +329,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/include/c++/7/bits/basic_ios.tcc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/soccerchampionship.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="58" column="6" lean-forward="true" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
+        <state relative-caret-position="129">
+          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

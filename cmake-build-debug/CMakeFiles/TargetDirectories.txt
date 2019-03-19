@@ -3,6 +3,7 @@
 /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles/launchofcollider.dir
 /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles/watermelon.dir
 /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles/snacktower.dir
+/home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles/soldiersandcards.dir
 /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles/raisingbacteria.dir
 /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles/findthebone.dir
 /home/blacksabbathx/maratones/cmake-build-debug/CMakeFiles/nextround.dir

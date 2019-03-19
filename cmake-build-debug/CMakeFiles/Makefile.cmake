@@ -49,6 +49,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/launchofcollider.dir/DependInfo.cmake"
   "CMakeFiles/watermelon.dir/DependInfo.cmake"
   "CMakeFiles/snacktower.dir/DependInfo.cmake"
+  "CMakeFiles/soldiersandcards.dir/DependInfo.cmake"
   "CMakeFiles/raisingbacteria.dir/DependInfo.cmake"
   "CMakeFiles/findthebone.dir/DependInfo.cmake"
   "CMakeFiles/nextround.dir/DependInfo.cmake"

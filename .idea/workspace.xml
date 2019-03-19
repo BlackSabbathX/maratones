@@ -2,14 +2,15 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="maratones" targetName="watermelon" />
-      <config projectName="maratones" targetName="nextround" />
-      <config projectName="maratones" targetName="findthebone" />
       <config projectName="maratones" targetName="soccerchampionship" />
-      <config projectName="maratones" targetName="raisingbacteria" />
-      <config projectName="maratones" targetName="snacktower" />
+      <config projectName="maratones" targetName="findthebone" />
       <config projectName="maratones" targetName="launchofcollider" />
+      <config projectName="maratones" targetName="raisingbacteria" />
+      <config projectName="maratones" targetName="soldiersandcards" />
+      <config projectName="maratones" targetName="watermelon" />
       <config projectName="maratones" targetName="lcsubsequence" />
+      <config projectName="maratones" targetName="snacktower" />
+      <config projectName="maratones" targetName="nextround" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -24,12 +25,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lcsubsequence.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lcsubsequence.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nextround.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nextround.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raisingbacteria.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raisingbacteria.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/snacktower.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/snacktower.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/soccerchampionship.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/soccerchampionship.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/watermelon.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/watermelon.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/maratones.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/maratones.cbp" afterDir="false" />
@@ -48,10 +44,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/findthebone.cpp">
+        <entry file="file://$PROJECT_DIR$/soldiersandcards.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="106">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,6 +80,8 @@
         <option value="$PROJECT_DIR$/raisingbacteria.cpp" />
         <option value="$PROJECT_DIR$/launchofcollider.cpp" />
         <option value="$PROJECT_DIR$/findthebone.cpp" />
+        <option value="$PROJECT_DIR$/luckypermutationtriple.cpp" />
+        <option value="$PROJECT_DIR$/soldiersandcards.cpp" />
       </list>
     </option>
   </component>
@@ -98,6 +99,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,7 +111,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.findthebone">
+  <component name="RunManager" selected="Application.soldiersandcards">
     <configuration name="findthebone" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="maratones" TARGET_NAME="findthebone" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="maratones" RUN_TARGET_NAME="findthebone">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -175,6 +176,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="soldiersandcards" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="maratones" TARGET_NAME="soldiersandcards" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="maratones" RUN_TARGET_NAME="soldiersandcards">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="watermelon" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="maratones" TARGET_NAME="watermelon" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="maratones" RUN_TARGET_NAME="watermelon">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -188,6 +194,7 @@
       <item itemvalue="Application.raisingbacteria" />
       <item itemvalue="Application.snacktower" />
       <item itemvalue="Application.soccerchampionship" />
+      <item itemvalue="Application.soldiersandcards" />
       <item itemvalue="Application.watermelon" />
     </list>
   </component>
@@ -207,19 +214,20 @@
       <workItem from="1552801760078" duration="4442000" />
       <workItem from="1552862371331" duration="22606000" />
       <workItem from="1552885203509" duration="1751000" />
-      <workItem from="1552964910463" duration="13896000" />
+      <workItem from="1552964910463" duration="15237000" />
+      <workItem from="1553001264728" duration="2996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60484000" />
+    <option name="totallyTimeSpent" value="64821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="725" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50158733" side_tool="true" weight="0.23712121" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4984127" visible="true" weight="0.24469697" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4984127" weight="0.24848485" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32961783" />
@@ -427,10 +435,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/luckypermutationtriple.cpp" />
     <entry file="file://$PROJECT_DIR$/findthebone.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soldiersandcards.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -150,6 +150,19 @@ snacktower/fast:
 .PHONY : snacktower/fast
 
 #=============================================================================
+# Target rules for targets named soldiersandcards
+
+# Build rule for target.
+soldiersandcards: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 soldiersandcards
+.PHONY : soldiersandcards
+
+# fast build rule for target.
+soldiersandcards/fast:
+	$(MAKE) -f CMakeFiles/soldiersandcards.dir/build.make CMakeFiles/soldiersandcards.dir/build
+.PHONY : soldiersandcards/fast
+
+#=============================================================================
 # Target rules for targets named raisingbacteria
 
 # Build rule for target.
@@ -403,6 +416,33 @@ soccerchampionship.cpp.s:
 	$(MAKE) -f CMakeFiles/soccerchampionship.dir/build.make CMakeFiles/soccerchampionship.dir/soccerchampionship.cpp.s
 .PHONY : soccerchampionship.cpp.s
 
+soldiersandcards.o: soldiersandcards.cpp.o
+
+.PHONY : soldiersandcards.o
+
+# target to build an object file
+soldiersandcards.cpp.o:
+	$(MAKE) -f CMakeFiles/soldiersandcards.dir/build.make CMakeFiles/soldiersandcards.dir/soldiersandcards.cpp.o
+.PHONY : soldiersandcards.cpp.o
+
+soldiersandcards.i: soldiersandcards.cpp.i
+
+.PHONY : soldiersandcards.i
+
+# target to preprocess a source file
+soldiersandcards.cpp.i:
+	$(MAKE) -f CMakeFiles/soldiersandcards.dir/build.make CMakeFiles/soldiersandcards.dir/soldiersandcards.cpp.i
+.PHONY : soldiersandcards.cpp.i
+
+soldiersandcards.s: soldiersandcards.cpp.s
+
+.PHONY : soldiersandcards.s
+
+# target to generate assembly for a file
+soldiersandcards.cpp.s:
+	$(MAKE) -f CMakeFiles/soldiersandcards.dir/build.make CMakeFiles/soldiersandcards.dir/soldiersandcards.cpp.s
+.PHONY : soldiersandcards.cpp.s
+
 watermelon.o: watermelon.cpp.o
 
 .PHONY : watermelon.o
@@ -441,6 +481,7 @@ help:
 	@echo "... launchofcollider"
 	@echo "... watermelon"
 	@echo "... snacktower"
+	@echo "... soldiersandcards"
 	@echo "... raisingbacteria"
 	@echo "... findthebone"
 	@echo "... nextround"
@@ -467,6 +508,9 @@ help:
 	@echo "... soccerchampionship.o"
 	@echo "... soccerchampionship.i"
 	@echo "... soccerchampionship.s"
+	@echo "... soldiersandcards.o"
+	@echo "... soldiersandcards.i"
+	@echo "... soldiersandcards.s"
 	@echo "... watermelon.o"
 	@echo "... watermelon.i"
 	@echo "... watermelon.s"
